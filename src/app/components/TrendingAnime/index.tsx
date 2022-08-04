@@ -17,7 +17,7 @@ function TrendingAnime() {
 
   const isEmptyAnimePage = !animePage || !animePage.media || animePage.media.length === 0
 
-  if (isEmptyAnimePage) return null
+  if (isEmptyAnimePage) return <div>Loading...</div>
 
   return (
     <Container>
@@ -29,6 +29,7 @@ function TrendingAnime() {
           <Title>
             {anime?.title?.english}
           </Title>
+          <h5>Average Score: {anime?.averageScore}</h5>
         </ItemContainer>
       ))}
     </Container>

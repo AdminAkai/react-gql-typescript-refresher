@@ -6,6 +6,7 @@ export const Container = styled.div`
   height: 100%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 `
 
 export const ItemContainer = styled.div`

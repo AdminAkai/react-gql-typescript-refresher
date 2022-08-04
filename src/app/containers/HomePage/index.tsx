@@ -6,7 +6,7 @@ import TrendingAnime from '../../components/TrendingAnime';
 import { useFetchAnimePage } from '../../utils/hooks/fetchHooks'
 
 function HomePage(props: IProps) {
-  useFetchAnimePage()
+  useFetchAnimePage(0, 20)
 
   return (
     <Container>
