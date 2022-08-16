@@ -3,7 +3,7 @@ import { createSelector } from "reselect";
 import { useAppSelector } from "../../hooks";
 import { makeSelectAnimePage } from "./selectors"
 
-import { Container, ItemContainer, Cover, Title } from './styledComponents'
+import { Container, ItemContainer, Cover, Title } from './styledComponents.js'
 
 const stateSelector = createSelector(
   makeSelectAnimePage, 

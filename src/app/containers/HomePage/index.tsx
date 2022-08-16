@@ -1,5 +1,5 @@
 import { IProps } from './types';
-import { Container } from './styledComponents'
+import { Container } from './styledComponents.js'
 
 import TrendingAnime from '../../components/TrendingAnime';
 
